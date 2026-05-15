@@ -3,7 +3,7 @@ const { writeFileSync } = require("fs-extra");
 
 module.exports = {
         config: {
-                name: "TAWRAAT BHAI",
+                name: "Admin",
                 version: "1.6",
                 author: "NTKhang",
                 countDown: 5,
@@ -110,7 +110,7 @@ module.exports = {
                                 return message.reply(getLang("listAdmin", getNames.map(({ uid, name }) => `• ${name} (${uid})`).join("\n")));
                         }
                         default:
-                                return message.SyntaxError();
+                                return message.Tawraat Bhai();
                 }
         }
 };
